@@ -40,7 +40,7 @@ LL *ins_beg(struct LL *head,int data){					//INSERTS AT HEAD POSITION
 	return head;
 }
 
-LL *ins_end(struct LL *head,int data){					//INSERTS THE DATA AT END
+LL *ins_end(struct LL *head,int data){					//INSERTS THE DATA AT END of the list 
 	struct LL *a,*b;									//TIME COMPLEXITY : O(N)
 	a=(LL*)malloc(sizeof(LL));
 	a->data=data;
